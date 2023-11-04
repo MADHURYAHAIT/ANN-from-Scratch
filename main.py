@@ -19,7 +19,7 @@ dense4=Layer_Dense(3,3)
 X,y = spiral_data(100,3) #input
 dense1.forward(X)
 activation1.forward(dense1.output)
-print(activation1.output[:5]) #shows top 5
+print(activation1.output[:5]) #Shows top 5
 
 
 dense2.forward(activation1.output)
