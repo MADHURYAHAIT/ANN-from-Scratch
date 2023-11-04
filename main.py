@@ -2,10 +2,9 @@ import numpy as np
 from data import *
 from loss_fn import *
 from Layer import *
+
 from activation import *
-np.random.seed(0)
-
-
+np.random.seed(0) #So that data won't change
 
 dense1 = Layer_Dense(2,3)
 activation1=Activation_ReLU()
